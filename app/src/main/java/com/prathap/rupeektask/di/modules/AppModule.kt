@@ -1,7 +1,6 @@
 package com.prathap.rupeektask.di.modules
 
 import android.app.Application
-import androidx.room.Room
 import com.prathap.rupeektask.network.ConnectivityInterceptor
 import com.prathap.rupeektask.network.WeatherApiService
 import dagger.Module

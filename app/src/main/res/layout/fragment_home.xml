@@ -7,11 +7,25 @@
     android:layout_height="match_parent"
     tools:context=".ui.fragments.HomeFragment">
 
+    <TextView
+        android:id="@+id/currentLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="18dp"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="@string/current_location"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@id/rv_list_weather"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_list_weather"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@id/currentLocation"
         android:scrollbars="vertical" />
 
     <LinearLayout

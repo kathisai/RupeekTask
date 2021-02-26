@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">RupeekTask</string>
     <string name="genrial_error_message">Something went wrong !!!</string>
+    <string name="current_location">Latitude %1$s, Longitude %2$s</string>
+    <string name="rationale_title">We need permission to show your current location</string>
+    <string name="rationale_desc">This app relies on location permission. We require access to this permission to find your location.</string>
+
 </resources>
